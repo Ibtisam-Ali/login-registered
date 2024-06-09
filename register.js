@@ -3,7 +3,6 @@ const name = document.querySelector('#name')
 const email = document.querySelector('#email')
 const password = document.querySelector('#pass')
 const pass2 = document.querySelector('#pass2')
-// const number = document.querySelector('#number')
 
 
 
@@ -15,7 +14,7 @@ form.addEventListener('submit', function (event) {
         email:email.value,
         password:password.value,
         repassword:pass2.value
-        // number:number.value,
+        
     });
     console.log(arr);
 
@@ -41,8 +40,5 @@ form.addEventListener('submit', function (event) {
     
     
 })
-
-
-
 
 
